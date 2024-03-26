@@ -19,6 +19,6 @@ def confirmation(request):
     return render(request,'confirmationpage.html',context)
     
 def contactus(request):
-    return render(request,'contactus')
+    return render(request,'contactus.html')
     
  

@@ -3,8 +3,8 @@
 {% block content %}
 <div class="row">
     {% for i in petadpt %}
-        <div class="col">
-        <div class="card" style="width: 18rem;margin:10px;height:20px">
+        <div class="col-sm-3">
+        <div class="card">
           <img src= "{{i.imageURL}}" class="card-img-top" style="height:150px"alt="...">
           <div class="card-body">
               <h5 class="card-title">{{i.name}}</h5>
