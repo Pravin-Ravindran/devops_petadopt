@@ -28,9 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['05fbf6c43dc741fb8af98fca660a7cc7.vfs.cloud9.eu-west-1.amazonaws.com']
 
 
-# Application definition 
-# Test it
-
+# Application definition
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
