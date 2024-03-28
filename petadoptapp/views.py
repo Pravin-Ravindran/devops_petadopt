@@ -21,4 +21,3 @@ def confirmation(request):
 def contactus(request):
     return render(request,'contactus.html')
     
- 

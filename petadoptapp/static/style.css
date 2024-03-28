@@ -18,3 +18,8 @@ input[type=text] {
   border-radius: 3px;
   font-size: 17px;
 }
+.submitbutton{
+  text-decoration:none;
+  background-color:black;
+  color:white;
+}
