@@ -36,32 +36,14 @@
         </li>
       </ul>
       
-      <!--<ul class="navbar-nav">-->
-      <!--  <li class="nav-item">-->
-      <!--    <a class="nav-link" data-bs-toggle="modal" data-bs-target="#update"  aria-current="page" style="font-family:Roboto;font-size:20px;p:5px; float: right">Modify</a>-->
-      <!--  </li>-->
-      <!--</ul>-->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="{%url 'Modify' %}"  data-bs-toggle="modal" d aria-current="page" style="font-family:Roboto;font-size:20px;p:5px; float: right">Modify</a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
-
-<div class="modal" id="update" tabindex="-1">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Customize</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Update your feelings but please don't revoke your requests for dogs.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Delete My Request</button>
-        <button type="button" class="btn btn-primary">Update My Details</button>
-      </div>
-    </div>
-  </div>
-</div>
 
 <h1>Hi {{ fname }},</h1>
 
