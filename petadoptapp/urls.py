@@ -10,6 +10,7 @@ urlpatterns = [
     path('checkout/',views.checkout,name='Checkout'),
     path('confirmation/',views.confirmation,name='Confirm'),
     path('contactus/',views.contactus,name='Contact'),
+    # path('modify/',views.modify,name='Modify'),
     ]
     
 urlpatterns +=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

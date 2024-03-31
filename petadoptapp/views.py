@@ -20,4 +20,7 @@ def confirmation(request):
     
 def contactus(request):
     return render(request,'contactus.html')
+
+def modify(request):
+    return render(request,'modify.html')
     
