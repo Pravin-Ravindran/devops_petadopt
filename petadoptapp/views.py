@@ -24,3 +24,5 @@ def contactus(request):
 def modify(request):
     return render(request,'modify.html')
     
+def revokerequest(request):
+    return render(request,'revokerequest.html')
