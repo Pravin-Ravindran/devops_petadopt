@@ -26,3 +26,9 @@ def modify(request):
     
 def revokerequest(request):
     return render(request,'revokerequest.html')
+    
+def updatedetails(request):
+    return render(request,'updatedetails.html')
+    
+def modifieddetails(request):
+    return render(request,'modifieddetails.html')

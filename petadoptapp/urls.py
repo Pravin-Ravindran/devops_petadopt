@@ -12,6 +12,8 @@ urlpatterns = [
     path('contactus/',views.contactus,name='Contact'),
     path('modify/',views.modify,name='Modify'),
     path('revokerequest/',views.revokerequest,name='Revoke'),
+    path('updatedetails/',views.updatedetails,name='Updatedetails'),
+    path('modifieddetails/',views.modifieddetails,name='Modified'),
     ]
     
 urlpatterns +=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
