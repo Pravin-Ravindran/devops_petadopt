@@ -21,10 +21,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-)q@5z12)+ur)o@fsf%v5-uff&5byb5x*syef)eyvt0ii%*!m#='
+CSRF_TRUSTED_ORIGINS = ['https://05fbf6c43dc741fb8af98fca660a7cc7.vfs.cloud9.eu-west-1.amazonaws.com']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['x23186607-petadapt-env.eba-tmr8tppj.us-west-2.elasticbeanstalk.com']
+ALLOWED_HOSTS = ['05fbf6c43dc741fb8af98fca660a7cc7.vfs.cloud9.eu-west-1.amazonaws.com']
 
 # Application definition
 INSTALLED_APPS = [
@@ -115,8 +116,11 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
+STATICFILES_DIRS = [
+    BASE_DIR / 'static',
+]
+STATIC_ROOT =  'staticfiles'
 STATIC_URL = '/static/'
-STATICFILES_DIR = os.path.join(BASE_DIR, 'static')
 MEDIA_URL = '/images/'
 MEDIA_ROOT = os.path.join(BASE_DIR,'static/images')
 

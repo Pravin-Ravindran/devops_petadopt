@@ -1,0 +1,33 @@
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.btn {
+  background-color: #04AA6D;
+  text-decoration: none;
+  
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  font-size: 17px;
+}
+.submitbutton{
+  text-decoration:none;
+  background-color:black;
+  color:white;
+}
+.Backbutton{
+  float: right;
+  width: 150px;
+  margin-right: 100px;
+  color:white;
+  background-color:black;
+  text-align: center;
+}
