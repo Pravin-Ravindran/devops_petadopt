@@ -32,3 +32,4 @@ def updatedetails(request):
     
 def modifieddetails(request):
     return render(request,'modifieddetails.html')
+    
