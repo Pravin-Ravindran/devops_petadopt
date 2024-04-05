@@ -1,10 +1,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: x23186607petadopt:sonartoken
-    HOST: x23186607petadopt:HOST
-    Organization: x23186607petadoptt:Organization
-    Project: x23186607petadopt:Project
+    LOGIN: x23186607petadopt:5940271829dc9ce39fd7e1f8c668d81a88936130
+    HOST: x23186607petadopt:https://sonarcloud.io/
+    Organization: x23186607petadoptt:pravin-ravindran
+    Project: x23186607petadopt:Pravin-Ravindran_devops_petadopt
  
 phases:
   pre_build:
