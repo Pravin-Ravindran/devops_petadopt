@@ -10,6 +10,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin:5px;p:5px">
   <div class="container-fluid">
+    {# Added New-Nest-Pets link in navbar which we clicked will redirect to home.html #}
     <a class="navbar-brand" href="{%url 'Home' %}" style="font-family:Roboto;font-size:25px;p:5px">New-Nest-Pets</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -17,12 +18,15 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
+          {# Added New-Nest-Pets link in navbar which we clicked will redirect to home.html #}
           <a class="nav-link active" aria-current="page" href="{%url 'Home' %}" style="font-family:Roboto;font-size:20px;p:5px">Home</a>
         </li>
         <li class="nav-item">
+          {# Added About link in navbar which we clicked will redirect to about.html #}
           <a class="nav-link" href="{%url 'About' %}" style="font-family:Roboto;font-size:20px;p:5px">About</a>
         </li>
           <li class="nav-item">
+            {# Added Contact link in navbar which we clicked will redirect to contactus.html #}
           <a class="nav-link" href="{%url 'Contact' %}" aria-current="page" href="#"style="font-family:Roboto;font-size:20px;p:5px">ContactUs</a>
         </li>
         </li>

@@ -15,5 +15,5 @@ urlpatterns = [
     path('updatedetails/',views.updatedetails,name='Updatedetails'),
     path('modifieddetails/',views.modifieddetails,name='Modified'),
     ]
-    
+# Django to serve media files at the specified MEDIA_URL    
 urlpatterns +=static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)

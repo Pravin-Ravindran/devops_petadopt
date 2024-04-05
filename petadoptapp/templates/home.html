@@ -2,6 +2,7 @@
 
 {% block content %}
 <div class="row">
+    {# Added this for loop code inorder to fetch all the respective fields added by the admin #}
     {% for i in petadpt %}
         <div class="col-sm-3">
         <div class="card">
@@ -11,6 +12,7 @@
               <p class="card-text">{{i.healthcondition}}</p>
               <p class="card-text">{{i.description}}</p>
           </div>
+          {# Added this code so when we click on adapt button it will direct you to checkoutpage.html #}
           <a href="{%url 'Checkout' %}" class="btn btn-primary">Adapt</a>
         </div>  
   </div>

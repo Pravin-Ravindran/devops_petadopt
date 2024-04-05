@@ -8,10 +8,13 @@
   <div class="col-75">
     <div class="container">
       <form method="post" action="{% url 'Confirm' %}">
+        {# Added form action method to navigate to the confirmationpage.html #}
         {% csrf_token %}
+        {# Added this csrf_token to store and retrive in the confirmationpage.html #}
         <div class="row">
           <div class="col-50">
             <h3>Shipping Address</h3>
+            {# Added this code to make Full Name and Email as required field also included format validation for gmail #}
             <label for="fname"><i class="fa fa-user"></i> Full Name</label>
             <input type="text" id="fname" name="fname" style="width: 100%;margin-bottom: 20px;padding: 12px;border: 1px solid #ccc;border-radius: 3px;" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z]{2,}" placeholder="Pravin M. Doe" required>
             <label for="email"><i class="fa fa-envelope"></i> Email</label>
@@ -20,8 +23,6 @@
             <input type="text" id="adr" name="address"style="width: 100%;margin-bottom: 20px;padding: 12px;border: 1px solid #ccc;border-radius: 3px;" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z]{2,}" placeholder="54 Parnel Street">
             <label for="city"><i class="fa fa-institution"></i> City</label>
             <input type="text" id="city" name="city" style="width: 100%;margin-bottom: 20px;padding: 12px;border: 1px solid #ccc;border-radius: 3px;" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+\.[A-Za-z]{2,}" placeholder="Dublin">
-
-
             <div class="row">
               <div class="col-50">
                 <label for="state">State</label>

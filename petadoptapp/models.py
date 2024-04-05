@@ -8,11 +8,10 @@ class Pet(models.Model):
     image=models.ImageField(null=True,blank=False)
     
     objects = models.Manager()
-    
+# Included this  code to display the name alone after saving the pet details
     def __str__(self):
         return f'{self.name}'
-    
-    
+    # This code tries to retrieve the url of the image   
     @property
     def imageURL(self):
         try:
@@ -20,6 +19,3 @@ class Pet(models.Model):
         except:
             url=''
         return url
-        
-class Name(models.Model):
-    name=models.CharField(max_length=20)
