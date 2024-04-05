@@ -1,10 +1,10 @@
 version: 0.2
 env:
   secrets-manager:
-    LOGIN: sonarpetadopt:sonartoken
-    HOST: sonarpetadopt:HOST
-    Organization: sonarpetadopt:Organization
-    Project: sonarpetadopt:Project
+    LOGIN: x23186607petadopt:sonartoken
+    HOST: x23186607petadopt:HOST
+    Organization: x23186607petadoptt:Organization
+    Project: x23186607petadopt:Project
  
 phases:
   pre_build:
